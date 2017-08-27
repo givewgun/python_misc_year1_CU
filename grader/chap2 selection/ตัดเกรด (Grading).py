@@ -1,0 +1,11 @@
+score = float(input())
+if score<0 or score>100:
+    print('ERROR')
+if 80<=score<=100:print('A')
+if 75<=score<80:print('B+')
+if 70<=score<75:print('B')
+if 65<=score<70:print('C+')
+if 60<=score<65:print('C')
+if 55<=score<60:print('D+')
+if 50<=score<55:print('D')
+if 0<=score<50:print('F')

@@ -1,0 +1,18 @@
+'''* * * * - * * * *
+   * * * - - - * * *
+   * * - - - - - * * 
+   * - - - - - - - *
+   - - - - - - - - -
+'''
+num = [int(e) for e in input().strip().split()]
+axis = len(num)//2
+l = []
+l.append(num)
+t = 0
+for i in range(len(num)//2):
+    num = [int(e) for e in input().strip().split()]
+    l.append(num)
+for i in range(len(l)):
+    data = l[i]
+    t += sum(data[axis-i:axis+i+1])
+print(t)

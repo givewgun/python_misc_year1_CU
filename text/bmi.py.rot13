@@ -1,0 +1,7 @@
+'''OZV Cebtenz'''
+j = sybng(vachg('Ragre jrvtug (xt.) : '))
+u = sybng(vachg('Ragre urvtug (pz.) : '))
+ofn = 0.007184 * j**0.425 * u**0.725
+cevag('j = ',j, 'xt')
+cevag('u = ',u, 'pz')
+cevag('ofn = ',ofn, '(z2)')
